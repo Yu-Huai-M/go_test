@@ -10,7 +10,7 @@ func Modity2(a *int) {
 	*a = 100
 }
 
-func Main() {
+func main() {
 	a := 100
 	fmt.Println(&a)
 	var p *int = &a
