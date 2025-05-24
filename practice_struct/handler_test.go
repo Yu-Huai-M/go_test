@@ -1,4 +1,4 @@
-package struct_test
+package practice_struct
 
 import (
 	"fmt"

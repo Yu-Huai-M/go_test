@@ -10,6 +10,7 @@ func TestAdd(t *testing.T) {
 		t.Errorf("add(1, 2)=%d; want %d", result, 3)
 	}
 	t.Logf("test add success")
+
 }
 
 func TestSub(t *testing.T) {
