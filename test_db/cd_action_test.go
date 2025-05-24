@@ -1,12 +1,13 @@
-package main
+package test_db
 
 import (
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"testing"
 )
 
-func main() {
+func Test_test(t *testing.T) {
 	dsn := "root:1234@tcp(127.0.0.1:3306)/big_event"
 	//连接数据集
 	db, err := sql.Open("mysql", dsn) //open不会检验用户名和密码
